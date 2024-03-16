@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.header ul li {
+    padding-right: 15px;
+    letter-spacing: 0.5px;
+}
+.profile-img {
+    border-radius: 9999px;
+    height: 36px;
+}
+.main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.main .searchBox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.main .searchBox .search {
+    width: 100%;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+.main .searchBox .icons-for-search {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
