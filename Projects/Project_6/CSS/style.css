@@ -1,0 +1,245 @@
+:root {
+    --color-one: hsl(171, 66%, 44%);
+    --color-two: hsl(233, 100%, 69%);
+    --color-three: hsl(210, 10%, 33%);
+    --color-four: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    height: 100%;
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Start Hero Section */
+.hero .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .container .logo {
+    padding-bottom: 50px;
+}
+
+.hero .container .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+.hero .container .text span {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.hero .container .text p {
+    color: var(--color-four);
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons .button-green {
+    background-color: var(--color-one);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 17px;
+    border-radius: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons .button-green:hover {
+    opacity: .8;
+}
+
+.buttons .button-blue {
+    background-color: var(--color-two);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 17px;
+    border-radius: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons .button-blue:hover {
+    opacity: .8;
+}
+/* End Hero Section */
+/* Start Sec-1 */
+section {
+    padding-bottom: 100px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    padding: 25px;
+    font-size: 30px;
+}
+
+.heading .text-gray {
+    margin: auto;
+    width: 47%;
+}
+
+.text-gray {
+    display: block;
+    color: var(--color-four);
+    line-height: 2;
+    width: 70%;
+}
+
+.sec-1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.sec-1 .container .left-section img{
+    transform: translateX(-50px);
+}
+
+.sec-1 .container .right-section ul li {
+    list-style: none;
+    padding: 40px;
+    width: 100%;
+}
+
+.sec-1 .container .right-section ul li h1 {
+    padding-bottom: 10px;
+}
+
+.sec-1 .container .right-section ul li .text-gray {
+    width: 70%;
+    line-height: 2;
+}
+/* End Sec-1 */
+/* Start Sec-2 */
+.sec-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-2 .heading span {
+    width: 70%;
+}
+
+.sec-2 .img {
+    padding-top: 100px;
+}
+/* End Sec-2 */
+/* Start Sec-3 */
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+
+.cards .card img {
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+.cards .card span {
+    display: block;
+    width: 70%;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+
+.sec-4 .buttons {
+    padding-top: 50px;
+}
+/* End Sec-3 */
+/* Start Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eee;
+}
+
+footer > img {
+    width: 60px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .links {
+    width: 40%;
+}
+
+footer .links li {
+    padding: 30px;
+}
+
+footer .links li a {
+    text-decoration: none;
+    color: var(--color-three);
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer .icons li {
+    padding-right: 30px;
+}
+/* End Footer */

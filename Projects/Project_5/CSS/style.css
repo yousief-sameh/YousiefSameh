@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+
+:root {
+    --Primary-Color: hsl(322, 100%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    position: absolute;
+}
+
+header .logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+header .header-btn {
+    background-color: white;
+    padding: 10px 60px;
+    border-radius: 25px;
+    color: hsl(192, 100%, 9%);
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 1px 5px rgb(193, 192, 192);
+}
+
+.hero {
+    width: 100%;
+    height: 100%;
+    padding-top: 9%;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.hero .left-section {
+    padding-right: 20px;
+    width: 50%;
+}
+
+.hero .left-section img {
+    width: 600px;
+}
+
+.hero .right-section span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero .right-section p {
+    padding: 30px 0;
+    color: black;
+    font-weight: lighter;
+    width: 80%;
+}
+
+.hero-btn {
+    padding: 15px 60px;
+    background-color: var(--Primary-Color);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+.card {
+    box-shadow: 0 0 5px rgb(193, 192, 192);
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 200px auto;
+    padding: 100px;
+}
+
+.card .right-section {
+    width: 50%;
+}
+
+.card .right-section span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card .right-section p {
+    color: black;
+    font-weight: lighter;
+}
+
+.card .left-section img {
+    width: 350px;
+}
+
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(193, 192, 192);
+    width: 700px;
+    padding: 50px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ready span {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(8, 34, 34);
+    height: 500px;
+    width: 100%;
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .right-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer .right-section > img {
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+footer .right-section span {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    color: hsl(192, 25%, 60%);
+}
+
+footer .right-section span img {
+    padding-right: 20px;
+}
+
+footer .right-section > span {
+    display: block;
+}
+
+footer .mid-section {
+    display: flex;
+    align-items: center;
+}
+
+footer .mid-section ul{
+    padding-right: 100px;
+    list-style: none;
+}
+
+footer .mid-section ul li a {
+    color: hsl(192, 25%, 60%);
+    text-decoration: none;
+}
+
+footer .left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .left-section a {
+    text-decoration: none;
+    color: hsl(192, 25%, 60%);
+    padding-right: 20px;
+}
+
+footer .left-section span {
+    padding-top: 50px;
+    padding-right: 10px;
+    color: hsl(192, 25%, 60%);
+}
