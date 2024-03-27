@@ -311,6 +311,8 @@ section {
 	margin-top: 40px;
 	transition: all 0.3s ease;
 	cursor: pointer;
+	border: none;
+	outline: none;
 }
 
 .btn:hover {
